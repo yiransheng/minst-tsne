@@ -11,7 +11,7 @@ import {
 } from 'lodash';
 import libtsne from './alg/tsne';
 
-import mnist from 'mnist';
+const {minst} = window;
 
 function sampleMINST() {
   const set = mnist.set(100);
